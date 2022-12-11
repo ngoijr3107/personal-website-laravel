@@ -16,10 +16,10 @@ class ProfileSeeder extends Seeder
      */
     public function run() {
         DB::table('profiles')->insert([
-            'full_name'           => 'Fahim Anzam',
-            'email'               => 'test@gmail.com',
-            'phone'               => '+880**********',
-            'location'            => 'city, country',
+            'full_name'           => 'Paschal Mizengo',
+            'email'               => 'pmizengo@gmail.com',
+            'phone'               => '+255 786 397 123',
+            'location'            => 'Dar es Salaam, Tanzania',
             'designation'         => 'Full Stack Web Developer',
             'profile_image'       => 'profile_low.png',
             'profile_description' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore possimus cum esse aut alias sint at ut earum, quod quam, tempora sed fuga illum? A! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore possimus cum esse aut alias sint at ut earum, quod quam, tempora sed fuga illum? A!',
