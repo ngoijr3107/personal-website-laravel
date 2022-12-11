@@ -74,7 +74,7 @@
         <div class="row justify-content-center text-center">
             <div class="col-12">
                 <!-- <h1 class="hero_heading_hello mb-3"><span class="text-primary">Hello,</span></h1> -->
-                <h1 class="hero_heading_name mb-3">I'm <span class="text-primary">Fahim,</span></h1>
+                <h1 class="hero_heading_name mb-3">I'm <span class="text-primary">{{$profile->full_name}},</span></h1>
                 <h1 class="hero_heading_title mb-3 js--start-sticky-nav">
                     Web <span id="typed"></span>
                 </h1>
