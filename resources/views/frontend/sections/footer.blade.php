@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-md-12">
                 <p class="text-center">
-                    Design & Developed By <strong>Fahim</strong>, Powered By <strong><a href="https://laravel.com" target="_blank"><i class="fab fa-laravel"></i> Laravel</a></strong> &copy; {{ date('Y') }}
+                    <strong>Paschal</strong> &copy; {{ date('Y') }}
                 </p>
             </div>
         </div>
