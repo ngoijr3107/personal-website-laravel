@@ -16,7 +16,7 @@
     <link href="//fonts.googleapis.com" rel="preconnect" crossorigin>
     <meta name="description" content="I am a full stack web developer. I do web design and web developent at efficient price and on time.">
     <meta name="keywords" content="Web Design, Web Development, Ecommerce, Application, Software">
-    <meta name="author" content="Fahim Anzam Dip">
+    <meta name="author" content="Paschal Mizengo">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
