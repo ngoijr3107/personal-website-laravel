@@ -17,15 +17,15 @@ class PagesController extends Controller
 {
 
     public function home() {
-        $title = "Fahim Anzam";
+        $title = "Paschal Mizengo";
         $categories = Category::all();
         $services = Service::all();
         $projects = Project::latest()->take(6)->get();
         $profile = Profile::where('id', 1)->first();
         $skills = Skill::all();
         $stats = Stat::latest()->take(4)->get();
-        $experiences = Experience::latest()->get();
-        $educations = Education::latest()->get();
+        $experiences = Experience::all();
+        $educations = Education::all();
 
         return view('frontend.home',
             [
@@ -42,7 +42,7 @@ class PagesController extends Controller
     }
 
     public function portfolio() {
-        $title = "Fahim Anzam - Portfolio";
+        $title = "Paschal Mizengo - Portfolio";
         $categories = Category::all();
         $projects = Project::paginate(9);
         $profile = Profile::where('id', 1)->first();
