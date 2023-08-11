@@ -73,16 +73,16 @@
 
         <div class="row justify-content-center text-center">
             <div class="col-12">
-                <!-- <h1 class="hero_heading_hello mb-3"><span class="text-primary">Hello,</span></h1> -->
+                <h1 class="hero_heading_hello mb-3"><span class="text-primary">Hello,</span></h1>
                 <h1 class="hero_heading_name mb-3">I'm <span class="text-primary">{{$profile->full_name}},</span></h1>
                 <h1 class="hero_heading_title mb-3 js--start-sticky-nav">
                     Web <span id="typed"></span>
                 </h1>
                 <div class="little_about_me py-4">
                     <ul class="d-flex justify-content-center list-unstyled">
-                        @if($profile->facebook_link)
+                        {{-- @if($profile->facebook_link)
                             <li><a href="{{ $profile->facebook_link }}" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
-                        @endif
+                        @endif --}}
                         @if($profile->github_link)
                             <li><a href="{{ $profile->github_link }}" target="_blank"><i class="fab fa-github-square"></i></a></li>
                         @endif
